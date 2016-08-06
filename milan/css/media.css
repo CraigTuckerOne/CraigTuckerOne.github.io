@@ -1,0 +1,131 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1100px) {
+	.nav-menu{
+		padding-left: 10px;		
+	}
+	.nav-menu ul li a{
+	font-size: 15px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1000px) {
+	.top-right strong{
+		padding-left: 0;
+	}
+		.nav-menu ul li a{
+	font-size: 14px;
+	}
+}
+
+@media only screen and (max-width : 991px) {
+	.button-menu{
+		display: none;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 769px) {
+.top-right {
+  text-align:left;
+}
+.top-addr strong {
+  color:#D12F22;
+  display:block;
+  font-size:22px;
+  font-weight:bold;
+  padding:22px 0 0 20px;
+  text-transform:uppercase;
+}
+.top-addr a {
+	margin-bottom: 10px;
+}
+#map-logo{
+	display: none;
+}
+header .button_main{
+margin-left: 30%;
+}
+.nav-menu ul{
+	display: none;
+}
+	.button-menu{
+		display: block;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 481px) {
+	.top-right {
+  text-align:left;
+}
+.top-addr strong {
+  color:#D12F22;
+  display:block;
+  font-size:22px;
+  font-weight:bold;
+  padding:22px 0 0 20px;
+  text-transform:uppercase;
+}
+#map-logo{
+	display: none;
+}
+.top-addr a {
+	margin-bottom: 10px;
+}
+header .button_main{
+margin-left: 20%;
+}
+footer img {
+  margin-left:0px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 892px) {
+	.nav-menu ul{
+	padding-left: 0px;
+	display: none;
+	margin-top: 2px;
+	position: absolute;
+	width: 93%;
+	background-color:#353535;
+	border-radius: 3px;
+	z-index: 10;
+	}
+	.button-menu{
+		display: block;
+	}
+   .nav-menu  ul li{
+	border-bottom: 1px solid #5d1608;
+	display: block; /* если надо в столбик меню */
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

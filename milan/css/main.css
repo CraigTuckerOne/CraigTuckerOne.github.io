@@ -1,0 +1,285 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+
+
+/* Header */
+
+header{
+	background: url(http://i2.cdn.turner.com/cnnnext/dam/assets/150204112228-008-int-notte-r2-super-169.jpeg) repeat-x top center;
+	min-height: 618px;
+}
+.top-line{
+	background-color: black;
+	box-shadow: 0px 2px 1px rgba(255,255,255,.28);
+	opacity: 0.82;
+	min-height: 97px;
+	display: inline-block;
+	width: 100%;
+}
+#map-logo{
+	font-size: 50px;
+	color: red;
+	padding: 22px 0px 0px 12px;
+	float: left;
+}
+.top-addr strong{
+	color:#d12f22;
+	display: block;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 22px 0px 0px 60px;
+}
+.top-addr a{
+	color: #fff;
+	font-size: 15px;
+	padding-left: 19px;
+	text-decoration: underline;
+}
+.logo-wrap{
+	position: relative;
+	margin-left: -31%;
+	text-align: center;
+}
+.logo{
+	position: absolute;
+	margin-top: 12px;
+}
+.top-right{
+	text-align: right;
+}
+.top-right span{
+	color: #fff;
+}
+.clear{
+	clear: both;
+}
+header h1{
+	color: #fff;
+	text-align: center;
+	margin-top: 141px;
+	text-shadow: 0px 3px rgba(0,0,0,.3);
+	font-size: 38px;
+	text-transform: uppercase;
+}
+.button_main{
+	display: inline-block;
+	background: #d12f22;
+	height: 50px;
+	vertical-align: middle;
+	color: #FFF;
+/* 	width: 100%; */
+	font-size: 14px;
+	padding: 6px 10px;
+	text-transform: uppercase;
+	border-bottom: #AC160A solid 3px;
+	border-radius: 2px;
+	font-weight: bold;
+}
+.button_main:hover{
+	background: #e5584d;
+}
+header .button_main{
+	margin-left: 22%;
+	line-height: 18px;
+	padding-top: 6px;
+	text-align: left;
+}
+.button_main span{
+	line-height: 10px;
+	padding: 2px 12px 0px 2px;
+	font-size: 32px;
+	float: left;
+}
+
+/* Navbar */
+
+.nav-menu{
+	box-shadow: 0px 2px 1px rgba(255,255,255,.28);
+	display: inline-block;
+	width: 100%;
+	background: #242424;
+	height: 62px;
+}
+.nav-menu ul{
+	margin: 0;
+	padding: 0;
+}
+.nav-menu ul li a{
+	color: #fff;
+	padding: 0 30px;
+	font-size: 18px;
+	line-height: 62px;
+}
+.nav-menu ul li{
+	display: inline-block;
+	border-left: #3b3b3b solid 1px;
+	padding: 0;
+	margin: 0;
+}
+.nav-menu li.active,
+.nav-menu li:hover 
+{
+	background: black;
+}
+.button-menu{
+	background:#242424;
+	border:none;
+	font-size:32px;
+	line-height:60px;
+	margin-left:18px;
+	color: red;
+}
+
+/* Achievments */
+
+.achiev{
+	background-color: #191919;
+	color: #fff;
+	padding: 20px 0px 130px;
+	margin-top: -10px;
+	text-align: center;
+}
+.achiev h2{
+	font-size: 32px;
+	color: #c9c9c9;
+	text-transform: uppercase;
+}
+.wrap{
+	padding: 0px;
+}
+.item{
+	border: #353535 solid 1px;
+	border-radius: 2px;
+}
+.item-wrap{
+	width: 158px;
+	display: inline-block;
+	position: relative;
+}
+.item-wrap:nth-child(1){
+	margin-left: 0px;
+}
+.item span{
+	display: block;
+}
+.item span img{
+	margin-top: 5px;
+	margin-bottom: -14px;
+}
+.ach-toggle{
+	background-color: #212121;
+	height: 25px;
+	cursor: pointer;
+}
+.ach-toggle:hover{
+	background-color: #353535;
+	color: red;
+}
+.toggle-date{
+	background-color: #353535;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	padding:0;
+	font-size: 14px;
+	line-height: 26px;
+	padding-top: 8px;
+	margin-top: 20px;
+	z-index: 10;
+	display: none;
+}
+.toggle-date li{
+	display: inline-block;
+	text-decoration: none;
+}
+.toggle-date:before{
+	content: '';
+	position: absolute;
+	width: 0px; 
+	height: 0;
+	border-bottom: 10px solid #353535;
+	top: -10px;
+	left: 68px;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+}
+
+/* NEWS */
+
+.news{
+	background-color: #d6d6d6;
+	padding: 35px 0;
+}
+.news_item{
+	padding-top: 30px;
+}
+.news_item img{
+	max-width: 100%;
+	height: auto;
+	border-top: 8px solid #AC160A;
+}
+
+/* FOOTER */
+
+footer{
+	background-color: #000000;
+	padding: 40px 0;
+}
+footer img{
+	margin-left: 50px;
+}
+footer ul{
+	float: right;
+}
+footer ul li{
+	display: inline-block;
+	margin-top: 20px;
+}
+footer ul li a{
+	text-decoration: none;
+	font-size: 34px;
+	color: #fff;
+	padding: 0px 10px;
+}
